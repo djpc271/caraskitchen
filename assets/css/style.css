@@ -1,0 +1,51 @@
+/* Logo style rules */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+
+body {
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+   font-family: Oswald, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: #252525;
+}
+
+#logo {
+   float: left;
+   font-size: 280%;
+   margin-left: 30px;
+}
+/* Menu style rules */
+#vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  #vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  #vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  #vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
