@@ -20,6 +20,11 @@ h1 {
     letter-spacing: 4px;
     color: #252525;
 }
+h2 {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+    color:#e9f5f9;
+}
 
 #logo {
     float: left;
@@ -50,18 +55,50 @@ h1 {
     background-color: yellow;
     color: black;
 }
+
 /*About Caras kitchen */
-#about{
+#about {
     padding-top: 30px;
     margin-bottom: 30px;
     text-align: center;
     border-left: 12.5%;
     border-right: 12.5%;
 }
-#about-text{
+
+#about-text {
     width: 75%;
     border: 1px solid grey;
     padding: 20px;
     margin: auto;
-    
+    text-align: center;
+}
+
+#signature {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+    padding-right: 100px;
+    text-align: right;
+    font-size: 200%;
+
+}
+
+#lead-image {
+    height: 200px;
+    width: 75%;
+    background: url(../images/lead-image.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#lead-about{
+    color: #e9f5f9;
+}
+#lead-text-ck{
+    font-size: 200%;
+    position: relative;
+    float: right;
+    padding-top: 50px;
+    padding-right: 200px;
+    margin: auto;
 }
