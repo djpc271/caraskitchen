@@ -25,7 +25,6 @@ h2 {
     letter-spacing: 4px;
     color:#e9f5f9;
 }
-
 #logo {
     float: left;
     font-size: 300%;
@@ -33,25 +32,25 @@ h2 {
 }
 
 /* Menu style rules */
-.topnav {
+.nav-bar {
     overflow: hidden;
 }
 
-.topnav a {
+.nav-bar a {
     float: right;
     color: #252525;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 50px;
     text-decoration: none;
     font-size: 17px;
 }
 
-.topnav a:hover {
+.nav-bar a:hover {
     background-color: #e9f5f9;
     color: black;
 }
 
-.topnav a.active {
+.nav-bar a.active {
     background-color: yellow;
     color: black;
 }
