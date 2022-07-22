@@ -23,35 +23,45 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
 }
 
 /* Menu style rules */
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: #252525;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #e9f5f9;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: yellow;
+    color: black;
+}
+/*About Caras kitchen */
+#about{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-left: 12.5%;
+    border-right: 12.5%;
+}
+#about-text{
+    width: 75%;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: auto;
+    
 }
