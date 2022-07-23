@@ -20,15 +20,18 @@ h1 {
     letter-spacing: 4px;
     color: #252525;
 }
+
 h2 {
     font-family: 'Dancing Script', cursive;
     letter-spacing: 4px;
-    color:#e9f5f9;
+
 }
+
 #logo {
     float: left;
     font-size: 300%;
     margin-left: 30px;
+    padding-top: 10px;
 }
 
 /* Menu style rules */
@@ -81,8 +84,12 @@ h2 {
     font-size: 200%;
 
 }
+/*Lead Image*/
+.about-ck{
+    position: relative;}
 
-#lead-image {
+#lead-image
+ {
     height: 200px;
     width: 75%;
     background: url(../images/lead-image.jpg);
@@ -91,31 +98,39 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#lead-about{
-    color: #e9f5f9;
-}
-#lead-text-ck{
+
+
+#lead-text-ck {
     font-size: 200%;
-    position: relative;
-    float: right;
-    padding-top: 50px;
-    padding-right: 200px;
-    margin: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Favourite Recipes*/
+.favourites {
+    position: relative;
+}
+
 #favourites-image {
     height: 200px;
-    width: 75%;
     background: url(../images/favourites-image.jpg);
     background-size: cover;
+    width: 75%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#favourite-recipes{
-    color: #252525;
+
+#favourites-text {
     font-size: 200%;
-    padding-top: 50px;
-    margin: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
