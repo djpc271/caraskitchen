@@ -102,3 +102,20 @@ h2 {
     padding-right: 200px;
     margin: auto;
 }
+
+/*Favourite Recipes*/
+#favourites-image {
+    height: 200px;
+    width: 75%;
+    background: url(../images/favourites-image.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#favourite-recipes{
+    color: #252525;
+    font-size: 200%;
+    padding-top: 50px;
+    margin: auto;
+}
