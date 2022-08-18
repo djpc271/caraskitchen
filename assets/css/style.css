@@ -217,15 +217,17 @@ footer {
     position: relative;
 }
 /* chicken burger recipe */
-#chicken-burger-recipe {
-    display: block;
-    margin: 0 auto;
-  width: 50%;
-  overflow: hidden;
-  clear: both;
-    
+.flex-container-recipe-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.flex-container-ingredients-method{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .ingredients {
     display: block;
     position: relative;
@@ -234,7 +236,7 @@ footer {
     border-color: #3a3a3a;
     padding-left: 20px;
     margin-left: 25%;
-    overflow: hidden;
+    overflow: hidden; 
 
 }
 .equipment {
@@ -244,9 +246,8 @@ footer {
     border-style: solid;
     border-color: #3a3a3a;
     padding-left: 20px;
+    margin-left: 10px;
     margin-right: 25%;
-    margin-left: 25%;
-    margin-bottom: 25px;
     overflow: hidden;
 }
 .method {
@@ -260,5 +261,8 @@ footer {
     margin-right: 25%;
     overflow: hidden;
     clear: both;
+    text-align: center;
+}
+.instructions-title{
     text-align: center;
 }
