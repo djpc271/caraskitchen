@@ -266,3 +266,7 @@ footer {
 .instructions-title{
     text-align: center;
 }
+
+ol > li::marker {
+    font-weight: bold;
+  }
