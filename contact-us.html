@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="https://kit.fontawesome.com/6585f90e07.js" crossorigin="anonymous"></script>
     <title>Contact Us</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -22,12 +24,35 @@
         </nav>
 
     </header>
-    Contact Us
+    <section class="contact-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+            <h2>Join our mailing list for exclusive recipes!</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first-name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last-name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email-address" required>
+            <h2>Let us know what type of recipes you're interested in !</h2>
+            <label for="main-course">Main courses</label>
+            <input type="radio" id="main-course" name="meal-preference" value="main-course" required>
+            <label for="desserts">Desserts</label>
+            <input type="radio" id="desserts" name="meal-preference" value="desserts" required>
+            <label for="snacks">All</label>
+            <input type="radio" id="all" name="meal-preference" value="all" required>
+
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    </section>
     <footer>
         <ul class="social-media-links">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
             </li>
             </li>
             <li>
@@ -36,10 +61,12 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
             </li>
         </ul>
     </footer>
 
 </body>
+
 </html>
